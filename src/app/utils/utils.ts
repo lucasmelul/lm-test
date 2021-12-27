@@ -1,0 +1,1 @@
+export const generateId = () => Math.floor(Date.now() / 1000).toString(36)

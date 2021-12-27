@@ -1,0 +1,246 @@
+[
+  {
+    "id": "r4h37g",
+    "name": "Superman",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "age": 11,
+    "inFight": false,
+    "skills": [{
+        "name": "Volar"
+      }, 
+      {
+        "name": "Invisible"
+      },
+      {
+        "name": "Elástico"
+      }
+    ]
+  },
+  {
+    "id": "gtf43d",
+    "name": "El Hombre Araña",
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
+    "age": 50,
+    "inFight": true,
+    "skills": [{
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Telepatía"
+    },
+    {
+      "name": "Clonación"
+    }]
+  },
+  {
+    "id": "bjh4fr",
+    "name": "Aquaman",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which",
+    "age": 25,
+    "inFight": false,
+    "skills": [{
+      "name": "Fuerza"
+    }, 
+    {
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Volar"
+    }]
+  },
+  {
+    "id": "ai4cfg",
+    "name": "Flash",
+    "description": "alteration in some form, by injected humour, or randomised words ",
+    "age": 65,
+    "inFight": true,
+    "skills": [{
+      "name": "Fuerza"
+    }, 
+    {
+      "name": "Volar"
+    }, 
+    {
+      "name": "Telepatía"
+    }]
+  },
+  {
+    "id": "qws12d",
+    "name": "Ironman",
+    "description": "alteration in some form, by injected humour, or randomised words ",
+    "age": 35,
+    "inFight": true,
+    "skills": [{
+      "name": "Volar"
+    }, 
+    {
+      "name": "Clonación"
+    }, 
+    {
+      "name": "Invisible"
+    }]
+  },
+  {
+    "id": "agasg2",
+    "name": "Hulk",
+    "description": "ct that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it h ",
+    "age": 10,
+    "inFight": false,
+    "skills": [{
+        "name": "Clonación"
+      }, 
+      {
+        "name": "Fuerza"
+      }, 
+      {
+        "name": "Elástico"
+      }
+    ]
+  },
+  {
+    "id": "j35gdg",
+    "name": "Batman",
+    "description": "ave suffered alteration in some form, by injected humour, or randomised ",
+    "age": 35,
+    "inFight": false,
+    "skills": [{
+      "name": "Fuerza"
+    }, 
+    {
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Volar"
+    }]
+  },
+  {
+    "id": "aasf32",
+    "name": "Blade",
+    "description": "t anything embarrassing hidden in the middle of text. All the Lorem ",
+    "age": 96,
+    "inFight": true,
+    "skills": [{
+      "name": "Fuerza"
+    }, 
+    {
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Volar"
+    }]
+  },
+  {
+    "id": "loisf3",
+    "name": "Deadpool",
+    "description": "t anything embarrassing hidden in the middle of text. All the Lorem ",
+    "age": 21,
+    "inFight": true,
+    "skills": [{
+      "name": "Fuerza"
+    }, 
+    {
+      "name": "Clonación"
+    }, 
+    {
+      "name": "Telepatía"
+    }]
+  },
+  {
+    "id": "ggds42",
+    "name": "Wolverine",
+    "description": "predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with",
+    "age": 23,
+    "inFight": true,
+    "skills": [{
+      "name": "Volar"
+    }, 
+    {
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Fuerza"
+    }]
+  },
+
+  {
+    "id": "aas222",
+    "name": "Robin",
+    "description": "ct that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it h ",
+    "age": 15,
+    "inFight": false,
+    "skills": [{
+        "name": "Volar"
+      }, 
+      {
+        "name": "Invisible"
+      }, 
+      {
+        "name": "Fuerza"
+      }
+    ]
+  },
+  {
+    "id": "qaws45",
+    "name": "Antman",
+    "description": "ge editors now use Lorem Ipsum as their default model text, and a se",
+    "age": 100,
+    "inFight": true,
+    "skills": [{
+      "name": "Clonación"
+    }, 
+    {
+      "name": "Volar"
+    }, 
+    {
+      "name": "Invisible"
+    }]
+  },
+  {
+    "id": "09kji3",
+    "name": "La Pantera",
+    "description": "ge editors now use Lorem Ipsum as their default model text, and a se",
+    "age": 32,
+    "inFight": true,
+    "skills": [{
+      "name": "Volar"
+    }, 
+    {
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Clonación"
+    }]
+  },
+  {
+    "id": "14gh44",
+    "name": "Capitán America",
+    "description": "ave suffered alteration in some form, by injected humour, or randomised ",
+    "age": 11,
+    "inFight": false,
+    "skills": [{
+      "name": "Invisible"
+    }, 
+    {
+      "name": "Telepatía"
+    }, 
+    {
+      "name": "Fuerza"
+    }]
+  },
+  {
+    "id": "14ghsa",
+    "name": "Thor",
+    "description": "ave suffered alteration in some form, by injected humour, or randomised ",
+    "age": 27,
+    "inFight": true,
+    "skills": [{
+      "name": "Telepatía"
+    }, 
+    {
+      "name": "Volar"
+    }, 
+    {
+      "name": "Invisible"
+    }]
+  }
+]

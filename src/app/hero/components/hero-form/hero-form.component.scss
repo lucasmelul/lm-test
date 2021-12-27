@@ -1,0 +1,26 @@
+form {
+  margin: 20px;
+  mat-form-field {
+    width: 50%;
+  }
+
+  .field-error {
+    p {
+      color: red;
+    }
+  }
+}
+
+.breadcumbs {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+    margin: 20px 0;
+    mat-form-field {
+      width: 100%;
+    }
+  }
+}

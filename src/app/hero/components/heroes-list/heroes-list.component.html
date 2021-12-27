@@ -1,0 +1,54 @@
+<div class="filters-container">
+  <mat-form-field appearance="standard">
+    <mat-label>Buscar Héroe</mat-label>
+    <input matInput (keyup)="filterHero($event)" placeholder="Ej. Superman" #input>
+  </mat-form-field>
+</div>
+<table mat-table [dataSource]="heroes" class="mat-elevation-z8 heroes-table">
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef> ID </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.id}} </td>
+  </ng-container>
+  <ng-container class="col-small" matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Nombre </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.name}} </td>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef> Descripción </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.description | truncate : 20}} </td>
+  </ng-container>
+
+  <ng-container class="col-small" matColumnDef="age">
+    <th mat-header-cell *matHeaderCellDef> Edad </th>
+    <td class="col-small" mat-cell *matCellDef="let hero"> {{hero.age}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="skills">
+    <th mat-header-cell *matHeaderCellDef> Poderes </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.skills | join :'name'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="inFight">
+    <th mat-header-cell *matHeaderCellDef> Estado </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.inFight ? 'En combate' : 'En espera'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef> Acciones </th>
+    <td mat-cell *matCellDef="let hero"> 
+      <div class="buttons-actions">
+        <a mat-raised-button [routerLink]="['edit', hero.id]">Editar</a>
+        <a mat-raised-button color="warn" (click)="removeHero(hero.id)">Eliminar</a>
+      </div>
+    </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<div class="paginator-container">
+  <app-paginator [limit]="limitPage" [total]="heroesTotal$ | async" (changePage)="changePage($event)" [resetPage]="resetPage.asObservable()" ></app-paginator>
+</div>
+<div class="buttons-container">
+  <a mat-fab routerLink="new" color="primary"><mat-icon>add</mat-icon></a>
+</div>
+<app-loading>

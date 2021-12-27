@@ -1,0 +1,14 @@
+{
+    "id": "r4h37g",
+    "name": "Superman",
+    "description": "dgs sdgsdg ",
+    "age": 15,
+    "inFight": false,
+    "skills": [{
+        "name": "Volar"
+      }, 
+      {
+        "name": "Invisible"
+      }
+    ]
+}
